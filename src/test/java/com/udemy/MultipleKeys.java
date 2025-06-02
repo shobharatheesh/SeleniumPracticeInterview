@@ -17,6 +17,8 @@ public class MultipleKeys {
 
        Actions actions = new Actions(driver);
 
+       //Ctrl + Shift + S opens a "Save As" dialog
+
        actions.keyDown(Keys.CONTROL)
             .keyDown(Keys.SHIFT)
             .sendKeys("s") // lowercase 's'
