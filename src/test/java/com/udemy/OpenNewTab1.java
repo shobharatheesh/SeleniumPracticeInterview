@@ -21,11 +21,14 @@ public class OpenNewTab1 {
         actions.keyDown(Keys.CONTROL).sendKeys("t").keyUp(Keys.CONTROL).perform();
 
 
+
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+        driver.quit();
 
     }
 }

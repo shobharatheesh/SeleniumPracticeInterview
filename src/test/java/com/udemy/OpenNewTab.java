@@ -30,5 +30,7 @@ public class OpenNewTab {
             throw new RuntimeException(e);
         }
 
+        driver.quit();
+
     }
 }
