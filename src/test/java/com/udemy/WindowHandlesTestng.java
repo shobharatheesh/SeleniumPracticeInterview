@@ -38,6 +38,7 @@ public class WindowHandlesTestng {
             Set<String> allWindows = driver.getWindowHandles();
             System.out.println("Child Window: " + driver.getTitle());
 
+            System.out.println("Window Handles (addresses):");
             for(String handle : allWindows)
             {
                 System.out.println(handle);
