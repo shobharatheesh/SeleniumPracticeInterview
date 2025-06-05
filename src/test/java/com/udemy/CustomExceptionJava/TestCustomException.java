@@ -1,5 +1,7 @@
 package com.udemy.CustomExceptionJava;
 
+//tep 2: Use the custom exception in a program
+
 public class TestCustomException {
 
     public static void validate(int age) throws MyCustomException {
