@@ -1,4 +1,4 @@
-package com.udemy.CustomExceptionJava;
+package com.udemy.CustomExceptionJava1;
 
 // Step 1: Create a custom exception class
 

@@ -1,4 +1,4 @@
-package com.udemy.CustomExceptionJava;
+package com.udemy.CustomExceptionJava1;
 
 //tep 2: Use the custom exception in a program
 
