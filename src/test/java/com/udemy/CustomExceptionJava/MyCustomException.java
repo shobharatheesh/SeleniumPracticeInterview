@@ -4,7 +4,7 @@ package com.udemy.CustomExceptionJava;
 
 public class MyCustomException extends Exception {
 
-    public MyCustomException(String message) {
+    public MyCustomException(String message) {   //parameterized constructor
         super(message);
 
     }

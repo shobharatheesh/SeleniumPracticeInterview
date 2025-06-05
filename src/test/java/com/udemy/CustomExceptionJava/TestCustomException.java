@@ -16,7 +16,8 @@ public class TestCustomException {
         {
             try {
                 validate(15);
-            } catch (MyCustomException e) {
+            }
+            catch (MyCustomException e) {
                 System.out.println("Exception : " + e.getMessage());
             }
 
