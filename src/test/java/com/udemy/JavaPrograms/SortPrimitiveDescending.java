@@ -12,7 +12,8 @@ public class SortPrimitiveDescending {
 
         Arrays.sort(numbers);
 
-        System.out.println("Sorted arrays ascending : " +Arrays.toString(numbers));
+       System.out.println("Sorted arrays ascending : " +Arrays.toString(numbers));
+
 
         //reverse the array manually
 
