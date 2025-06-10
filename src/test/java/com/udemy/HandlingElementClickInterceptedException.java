@@ -28,13 +28,13 @@ public class HandlingElementClickInterceptedException {
     @Test
     public void testClickInterceptedHandling()
     {
-
+            try{
             WebElement smallModal = driver.findElement(By.id("showSmallModal"));
             smallModal.click();
 
-            try {
-                WebElement largeModal = driver.findElement(By.id("showLargeModal"));
-                largeModal.click();
+
+            WebElement largeModal = driver.findElement(By.id("showLargeModal"));
+            largeModal.click();
             }
 
         //try clicking another element when modal is open.
