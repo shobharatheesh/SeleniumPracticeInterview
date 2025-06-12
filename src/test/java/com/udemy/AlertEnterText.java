@@ -49,6 +49,10 @@ public class AlertEnterText {
 
         System.out.println("Displayed result : "+result.getText());
 
+        System.out.println("True or False: "+result.getText().equals("You entered: Selenium Test"));
+
+        System.out.println("True or False: "+inputText.equals("Selenium Test"));
+
         Assert.assertEquals("Selenium Test","Selenium Test");
 
     }
