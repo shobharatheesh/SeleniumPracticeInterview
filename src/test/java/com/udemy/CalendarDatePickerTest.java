@@ -35,7 +35,6 @@ public class CalendarDatePickerTest {
 
         for(WebElement date : dates)
         {
-
             if(date.getText().equals("12"));
             {
                 date.click();
