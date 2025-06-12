@@ -31,7 +31,7 @@ public class DoubleClickExample {
 
         driver.switchTo().alert().accept();
 
-        //driver.quit();
+        driver.quit();
 
 
     }
