@@ -3,12 +3,13 @@ package com.udemy.RunTimePolymorphism;
 public class TestPoly {
     public static void main(String[] args)
     {
-        Animal a ;
+        Animal a ;    // reference of parent
 
-        a = new Dog();
+
+        a = new Dog();  // child object
         a.sound();
 
-        a = new Cat();
+        a = new Cat();   // another child object
         a.sound();
 
 
