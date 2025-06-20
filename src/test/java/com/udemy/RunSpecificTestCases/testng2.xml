@@ -1,0 +1,15 @@
+<suite name="MySuite">
+    <test name="SpecificTests">
+        <classes>
+            <class name="com.udemy.RunSpecificTestCases.SampleTests">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test3"/>
+                    <include name="test4"/>
+                    <include name="test5"/>
+                    <include name="test7"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
