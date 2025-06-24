@@ -11,6 +11,5 @@ public class StringExample {
 
         System.out.println(str);
 
-
     }
 }
