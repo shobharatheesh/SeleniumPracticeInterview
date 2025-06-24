@@ -1,6 +1,6 @@
 package com.udemy.JavaPrograms;
 
-public class CharacterCount {
+public class String_CharacterCount {
 
     public static void main(String[] args) {
         String str = "automation";
