@@ -28,9 +28,5 @@ public class RemoveDuplicates {
      System.out.println("Original: "+input);
      System.out.println("Without duplicates : "+output);
 
-
-
-
-
     }
 }
