@@ -1,0 +1,15 @@
+<suite name ="ParallelSuite" parallel ="tests" thread-count="2">
+    <test name = "ChromeTest">
+        <parameter name ="browser" value="chrome"/>
+            <classes>
+                <class name ="com.udemy.ParallelExecution.SampleTests1"/>
+            </classes>
+    </test>
+
+    <test name = "FireFoxTest">
+        <parameter name ="browser" value="firefox"/>
+        <classes>
+            <class name="com.udemy.ParallelExecution.SampleTests1"/>
+        </classes>
+    </test>
+</suite>
