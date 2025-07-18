@@ -45,6 +45,9 @@ public class LoginButtonTest {
 
         loginBtn.click();
 
+        String url = driver.getCurrentUrl();
+        System.out.println("Redirected to:  "+url);
+
 
     }
 
