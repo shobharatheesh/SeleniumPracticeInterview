@@ -41,8 +41,10 @@ public class WindowHandlesTestng {
             System.out.println("Window Handles (addresses):");
             for(String handle : allWindows)
             {
+                driver.switchTo().window(handle);
                 System.out.println(handle);
             }
+
 
             //switch back to parent window
 
