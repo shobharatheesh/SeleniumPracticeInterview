@@ -5,7 +5,7 @@ public class ReverseString {
     public static void main(String[] args)
     {
 
-        String input = "Hello";
+        String input = "Hello World";
 
         String reversed= "";
 
