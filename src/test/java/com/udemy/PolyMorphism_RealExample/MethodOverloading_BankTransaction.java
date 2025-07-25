@@ -1,6 +1,6 @@
 package com.udemy.PolyMorphism_RealExample;
 
-public class BankTransaction {
+public class MethodOverloading_BankTransaction {
 
     //deposit Cash
 
@@ -23,7 +23,7 @@ public class BankTransaction {
 
     public static void main(String[] args)
     {
-        BankTransaction bt = new BankTransaction();
+        MethodOverloading_BankTransaction bt = new MethodOverloading_BankTransaction();
 
         bt.deposit(5000);
         bt.deposit(10000, "ACEIONG");
